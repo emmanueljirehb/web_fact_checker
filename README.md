@@ -1,0 +1,224 @@
+# 🔎 Web Fact Checker using CrewAI
+
+This project is an **autonomous fact-checking application** that uses [CrewAI](https://github.com/joaomdmoura/crewai) agents to:
+- 🔍 Extract factual claims from a website
+- 🧠 Verify those claims using real-time web search (via Serper)
+- 📝 Summarize the findings with verdicts
+
+Built with **Python, Streamlit, and CrewAI**, it provides a simple UI where users can paste a website URL and get a fact-checking report in seconds.
+
+---
+
+## 🚀 Features
+
+- ✅ URL-based claim extraction and verification
+- 🤖 Three autonomous agents:
+  - `Claim Extractor`
+  - `Fact Verifier`
+  - `Summary Reporter`
+- 🔍 Real-time web search using Serper
+- 🧾 Markdown-formatted output with verdicts
+- 📥 Downloadable summary report
+
+---
+
+## 🧠 Agents Overview
+
+| Agent Name       | Role                  | Description                                      |
+|------------------|-----------------------|--------------------------------------------------|
+| Claim Extractor  | Extracts claims       | Parses webpage to identify factual claims        |
+| Fact Verifier    | Verifies each claim   | Uses Serper search to check accuracy             |
+| Summary Reporter | Summarizes findings   | Writes clear verdict and final report            |
+
+---
+
+## 🧩 Tech Stack
+
+- [CrewAI](https://github.com/joaomdmoura/crewai)
+- [Streamlit](https://streamlit.io/)
+- [Serper API](https://serper.dev) for web search
+- OpenAI GPT-4 (or GPT-3.5)
+
+---
+
+## 🛠️ Installation
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/web_fact_checker.git
+cd web_fact_checker
+```
+
+## 🔧 Setup Instructions
+
+### 2. Create and Activate a Virtual Environment
+
+```
+python -m venv .venv
+```
+### For Windows
+.venv\Scripts\activate
+
+### For macOS/Linux
+source .venv/bin/activate
+
+
+### 📄 `README.md`
+
+
+# 🔎 Web Fact Checker using CrewAI
+
+This project is an **autonomous fact-checking application** that uses [CrewAI](https://github.com/joaomdmoura/crewai) agents to:
+- 🔍 Extract factual claims from a website
+- 🧠 Verify those claims using real-time web search (via Serper)
+- 📝 Summarize the findings with verdicts
+
+Built with **Python, Streamlit, and CrewAI**, it provides a simple UI where users can paste a website URL and get a fact-checking report in seconds.
+
+---
+
+## 🚀 Features
+
+- ✅ URL-based claim extraction and verification
+- 🤖 Three autonomous agents:
+  - `Claim Extractor`
+  - `Fact Verifier`
+  - `Summary Reporter`
+- 🔍 Real-time web search using Serper
+- 🧾 Markdown-formatted output with verdicts
+- 📥 Downloadable summary report
+
+---
+
+## 🧠 Agents Overview
+
+| Agent Name       | Role                  | Description                                      |
+|------------------|-----------------------|--------------------------------------------------|
+| Claim Extractor  | Extracts claims       | Parses webpage to identify factual claims        |
+| Fact Verifier    | Verifies each claim   | Uses Serper search to check accuracy             |
+| Summary Reporter | Summarizes findings   | Writes clear verdict and final report            |
+
+---
+
+## 🧩 Tech Stack
+
+- [CrewAI](https://github.com/joaomdmoura/crewai)
+- [Streamlit](https://streamlit.io/)
+- [Serper API](https://serper.dev) for web search
+- OpenAI GPT-4 (or GPT-3.5)
+
+---
+
+## 🛠️ Installation
+
+### 1. Clone the repo
+
+
+git clone https://github.com/your-username/web_fact_checker.git
+cd web_fact_checker
+
+
+### 2. Create and activate a virtual environment
+
+
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+
+
+### 3. Install dependencies
+
+pip install -r requirements.txt
+
+
+### 4. Add your API keys
+
+Create a `.env` file in the project root:
+
+
+OPENAI_API_KEY=your_openai_api_key
+SERPER_API_KEY=your_serper_api_key
+
+
+> ⚠️ **Important**: The `.env` file is excluded via `.gitignore` and should never be pushed to GitHub.
+
+---
+
+## ▶️ Run the App
+
+
+streamlit run streamlit_app.py
+
+
+Then open: [http://localhost:8501](http://localhost:8501)
+
+---
+
+## 📁 Project Structure
+
+```
+web_fact_checker/
+├── streamlit_app.py           # Main Streamlit frontend
+├── crew.py                    # Agent/task setup using CrewAI
+├── requirements.txt           # Dependencies
+├── .gitignore                 # Ignores secrets and cache
+├── .env                       # API keys (not committed)
+│
+├── config/
+│   ├── agents.yaml            # Agent configurations
+│   └── tasks.yaml             # Task descriptions/prompts
+│
+└── tools/
+    └── custom_tool.py         # Serper search tool
+```
+
+---
+
+## 📌 Example Output
+
+
+✅ Verified:
+- "OpenAI released ChatGPT in November 2022"
+
+❌ False:
+- "AI can think exactly like humans"
+
+📌 Verdict: The article is generally accurate, but contains some misleading phrasing.
+
+
+
+## 💡 Future Ideas
+
+* 🧠 RAG-based document fact-checking
+* 🗃️ Save reports to PDF
+* 🌐 Deploy on Streamlit Cloud or Hugging Face Spaces
+
+---
+
+## 📜 License
+
+MIT License — free to use, modify, and share.
+
+---
+
+## 🤝 Acknowledgments
+
+* [CrewAI](https://github.com/joaomdmoura/crewai)
+* [Serper.dev](https://serper.dev)
+* [OpenAI](https://openai.com)
+
+
+---
+## 📬 Connect With Me
+
+Like the project? Let’s connect\!
+
+  * 🔗 [GitHub](https://github.com/emmanueljirehb) 
+  * 📊 [Kaggle](https://www.kaggle.com/emmanueljireh)
+  * 📝 [Medium](https://medium.com/@emmanueljirehb)
+  * 💼 [LinkedIn](https://www.linkedin.com/in/emmanueljirehb)
+
+
