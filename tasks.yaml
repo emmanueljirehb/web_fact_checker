@@ -1,0 +1,23 @@
+extract_claims:
+  description: >
+    Extract all factual claims from this webpage content:
+    {url}
+  expected_output: >
+    List of factual claims extracted from the URL.
+
+fact_check_claims:
+  description: >
+    Investigate the following claims for factual accuracy using reliable sources.
+    Claims: {claims}
+  expected_output: >
+    Each claim marked True / False / Misleading with 2+ supporting sources.
+
+write_summary:
+  description: >
+    Write a summary of the findings in markdown.
+    Claims and results: {claims}
+  expected_output: >
+    Summary with:
+    ✅ Verified claims
+    ❌ False/misleading claims
+    📌 Overall verdict
