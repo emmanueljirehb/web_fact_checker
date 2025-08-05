@@ -1,4 +1,11 @@
-# 🔎 Web Fact Checker using CrewAI
+# 🔎 Web Fact Checker using Crew AI
+
+
+
+<img width="2048" height="2048" alt="Gemini_Generated_Image_g06iqg06iqg06iqg" src="https://github.com/user-attachments/assets/3f0457ef-a728-4676-a875-b5e8858b948f" />
+
+
+
 
 This project is an **autonomous fact-checking application** that uses [CrewAI](https://github.com/joaomdmoura/crewai) agents to:
 - 🔍 Extract factual claims from a website
@@ -228,7 +235,12 @@ Like the project? Let’s connect\!
 ## This is final output of the project in a Webpage
 
 
-### Project execution Video is posted in linkedin kindly visit this link (https://www.linkedin.com/in/emmanueljirehb)
+### Project execution Video is posted in linkedin kindly visit this link 
+
+
+(https://www.linkedin.com/posts/emmanueljirehb_ai-crewai-openai-activity-7358392795260252160-_rGY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEbghGABnNb43icafqxzvdGO2hRcs8oGW8U)
+
+
 
 
 <img width="1920" height="1080" alt="e5" src="https://github.com/user-attachments/assets/9447e8e6-95fa-4db8-b7f3-1392e1a9d004" />
