@@ -223,31 +223,59 @@ Like the project? Let’s connect\!
 
 # OUTPUTS
 
+
+
 ## This is final output of the project in a Webpage
+
+
 
 <img width="1920" height="1080" alt="e5" src="https://github.com/user-attachments/assets/9447e8e6-95fa-4db8-b7f3-1392e1a9d004" />
 
+
+
 ---
 
-## in this image Agent 1 , Extracts the claims given by user and search the internet with the help of " SERPER " tool
+
+
+## ' Agent 1 ' in this image  , Extracts the claims given by user and search the internet with the help of " SERPER " tool
+
+
 
 <img width="1920" height="1080" alt="e1" src="https://github.com/user-attachments/assets/a4cddee3-f740-4d60-b055-fe1e8ceb154c" />
 
+
+
 ---
 
-## in this image Agent 1 , is searching the website link which is given by user
+
+
+## ' Agent 1 ' in this image  , is searching the website link which is given by user
+
+
 
 <img width="1920" height="1080" alt="e2" src="https://github.com/user-attachments/assets/dfc95185-a62d-457b-8a33-69cc25af489f" />
 
+
+
 ---
 
-## in this image Agent 2 , checks the entire website for facts and finally hands it over to Agent 3 
+
+
+## ' Agent 2 ' in this image  , checks the entire website for facts and finally hands it over to Agent 3 
+
+
 
 <img width="1920" height="1080" alt="e3" src="https://github.com/user-attachments/assets/7a6bf22a-9d0f-45e8-8de0-0cf0117de903" />
 
+
+
 ---
 
-## in this image Agent 3 , presents the final output i.e the number of facts extracted from a website URL and gives the final outcome in a markdown file in a webpage
+
+
+## ' Agent 3 ' in this image  , presents the final output i.e the number of facts extracted from a website URL and gives the final outcome in a markdown file in a webpage
+
+
 
 <img width="1920" height="1080" alt="e4" src="https://github.com/user-attachments/assets/6c29bd49-7c0b-41d4-a8ad-bdc10fa685b7" />
 
