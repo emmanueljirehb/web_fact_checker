@@ -22,9 +22,9 @@
 
 ## 🚀 Solution
 
-✅ Multi-agent workflow using **CrewAI** (summarizer, fact checker, report writer).
-✅ **RAG pipeline** with web + YouTube evidence retrieval.
-✅ **Interactive Streamlit dashboard** for real-time fact verification.
+- ✅ Multi-agent workflow using **CrewAI** (summarizer, fact checker, report writer).
+- ✅ **RAG pipeline** with web + YouTube evidence retrieval.
+- ✅ **Interactive Streamlit dashboard** for real-time fact verification.
 
 ---
 
