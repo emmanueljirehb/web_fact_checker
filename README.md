@@ -1,7 +1,3 @@
-Awesome 🚀 — a simple **Project Architecture diagram** will make the workflow crystal clear for recruiters and technical reviewers. I’ll add a placeholder in the README that you can later replace with your own diagram (or I can generate one for you if you want).
-
-Here’s the updated **README.md** with the architecture section:
-
 ---
 
 # 🕵️‍♂️ AI Fact-Checking System
@@ -14,13 +10,15 @@ Here’s the updated **README.md** with the architecture section:
 
 ## 📌 Executive Summary
 
-This project is a **multi-agent AI fact-checking system** built with **CrewAI, RAG, and Streamlit**. It verifies claims in real time by combining **web search + retrieval-augmented generation + YouTube transcription**, helping users quickly separate facts from misinformation.
+- This project is a **multi-agent AI fact-checking system** built with **CrewAI, RAG, and Streamlit**. 
+- It verifies claims in real time by combining **web search + retrieval-augmented generation + YouTube transcription**, helping users quickly separate facts from misinformation.
 
 ---
 
 ## 💡 Business Problem
 
-Misinformation spreads rapidly, damaging trust in media, politics, healthcare, and business. Manual fact-checking is **slow, biased, and resource-intensive**, making it hard to keep pace.
+- Misinformation spreads rapidly -> damaging trust in media, politics, healthcare, and business.
+- Manual fact-checking is **slow, biased, and resource-intensive**, making it hard to keep pace.
 
 ---
 
@@ -92,6 +90,71 @@ streamlit run app.py
 ![Dashboard Screenshot](assets/demo_screenshot.png)
 *(Replace with your actual screenshot or GIF of the Streamlit app in action)*
 
+
+
+
+## This is final output of the project in a Webpage
+
+
+### Project execution Video is posted in linkedin kindly visit this link 
+
+
+(https://www.linkedin.com/posts/emmanueljirehb_ai-crewai-openai-activity-7358392795260252160-_rGY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEbghGABnNb43icafqxzvdGO2hRcs8oGW8U)
+
+
+
+
+<img width="1920" height="1080" alt="e5" src="https://github.com/user-attachments/assets/9447e8e6-95fa-4db8-b7f3-1392e1a9d004" />
+
+
+
+---
+
+
+
+## ' Agent 1 ' in this image  , Extracts the claims given by user and search the internet with the help of " SERPER " tool
+
+
+
+<img width="1920" height="1080" alt="e1" src="https://github.com/user-attachments/assets/a4cddee3-f740-4d60-b055-fe1e8ceb154c" />
+
+
+
+---
+
+
+
+## ' Agent 1 ' in this image  , is searching the website link which is given by user
+
+
+
+<img width="1920" height="1080" alt="e2" src="https://github.com/user-attachments/assets/dfc95185-a62d-457b-8a33-69cc25af489f" />
+
+
+
+---
+
+
+
+## ' Agent 2 ' in this image  , checks the entire website for facts and finally hands it over to Agent 3 
+
+
+
+<img width="1920" height="1080" alt="e3" src="https://github.com/user-attachments/assets/7a6bf22a-9d0f-45e8-8de0-0cf0117de903" />
+
+
+
+---
+
+
+
+## ' Agent 3 ' in this image  , presents the final output i.e the number of facts extracted from a website URL and gives the final outcome in a markdown file in a webpage
+
+
+
+<img width="1920" height="1080" alt="e4" src="https://github.com/user-attachments/assets/6c29bd49-7c0b-41d4-a8ad-bdc10fa685b7" />
+
+
 ---
 
 ## 🏗️ Project Architecture
@@ -125,22 +188,7 @@ flowchart TD
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-# 🔎 Web Fact Checker using Crew AI
-
-
-
-<img width="2048" height="2048" alt="Gemini_Generated_Image_g06iqg06iqg06iqg" src="https://github.com/user-attachments/assets/3f0457ef-a728-4676-a875-b5e8858b948f" />
+<img width="1048" height="1048" alt="Gemini_Generated_Image_g06iqg06iqg06iqg" src="https://github.com/user-attachments/assets/3f0457ef-a728-4676-a875-b5e8858b948f" />
 
 
 
@@ -176,82 +224,6 @@ Built with **Python, Streamlit, and CrewAI**, it provides a simple UI where user
 | Summary Reporter | Summarizes findings   | Writes clear verdict and final report            |
 
 ---
-
-## 🧩 Tech Stack
-
-- [CrewAI](https://github.com/joaomdmoura/crewai)
-- [Streamlit](https://streamlit.io/)
-- [Serper API](https://serper.dev) for web search
-- OpenAI GPT-4 (or GPT-3.5)
-
----
-
-## 🛠️ Installation
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/your-username/web_fact_checker.git
-cd web_fact_checker
-```
-
-## 🔧 Setup Instructions
-
-### 2. Create and Activate a Virtual Environment
-
-```
-python -m venv .venv
-```
-### For Windows
-.venv\Scripts\activate
-
-### For macOS/Linux
-source .venv/bin/activate
-
-
-### 📄 `README.md`
-
-
-# 🔎 Web Fact Checker using CrewAI
-
-This project is an **autonomous fact-checking application** that uses [CrewAI](https://github.com/joaomdmoura/crewai) agents to:
-- 🔍 Extract factual claims from a website
-- 🧠 Verify those claims using real-time web search (via Serper)
-- 📝 Summarize the findings with verdicts
-
-Built with **Python, Streamlit, and CrewAI**, it provides a simple UI where users can paste a website URL and get a fact-checking report in seconds.
-
----
-
-## 🚀 Features
-
-- ✅ URL-based claim extraction and verification
-- 🤖 Three autonomous agents:
-  - `Claim Extractor`
-  - `Fact Verifier`
-  - `Summary Reporter`
-- 🔍 Real-time web search using Serper
-- 🧾 Markdown-formatted output with verdicts
-- 📥 Downloadable summary report
-
----
-
-## 🧠 Agents Overview
-
-| Agent Name       | Role                  | Description                                      |
-|------------------|-----------------------|--------------------------------------------------|
-| Claim Extractor  | Extracts claims       | Parses webpage to identify factual claims        |
-| Fact Verifier    | Verifies each claim   | Uses Serper search to check accuracy             |
-| Summary Reporter | Summarizes findings   | Writes clear verdict and final report            |
-
----
-
-## 🧩 Tech Stack
-
-- [CrewAI](https://github.com/joaomdmoura/crewai)
-- [Streamlit](https://streamlit.io/)
-- [Serper API](https://serper.dev) for web search
-- OpenAI GPT-4 (or GPT-3.5)
 
 ---
 
@@ -349,13 +321,6 @@ MIT License — free to use, modify, and share.
 
 ---
 
-## 🤝 Acknowledgments
-
-* [CrewAI](https://github.com/joaomdmoura/crewai)
-* [Serper.dev](https://serper.dev)
-* [OpenAI](https://openai.com)
-
-
 ---
 ## 📬 Connect With Me
 
@@ -365,71 +330,6 @@ Like the project? Let’s connect\!
   * 📊 [Kaggle](https://www.kaggle.com/emmanueljireh)
   * 📝 [Medium](https://medium.com/@emmanueljirehb)
   * 💼 [LinkedIn](https://www.linkedin.com/in/emmanueljirehb)
-
-# OUTPUTS
-
-
-
-## This is final output of the project in a Webpage
-
-
-### Project execution Video is posted in linkedin kindly visit this link 
-
-
-(https://www.linkedin.com/posts/emmanueljirehb_ai-crewai-openai-activity-7358392795260252160-_rGY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEbghGABnNb43icafqxzvdGO2hRcs8oGW8U)
-
-
-
-
-<img width="1920" height="1080" alt="e5" src="https://github.com/user-attachments/assets/9447e8e6-95fa-4db8-b7f3-1392e1a9d004" />
-
-
-
----
-
-
-
-## ' Agent 1 ' in this image  , Extracts the claims given by user and search the internet with the help of " SERPER " tool
-
-
-
-<img width="1920" height="1080" alt="e1" src="https://github.com/user-attachments/assets/a4cddee3-f740-4d60-b055-fe1e8ceb154c" />
-
-
-
----
-
-
-
-## ' Agent 1 ' in this image  , is searching the website link which is given by user
-
-
-
-<img width="1920" height="1080" alt="e2" src="https://github.com/user-attachments/assets/dfc95185-a62d-457b-8a33-69cc25af489f" />
-
-
-
----
-
-
-
-## ' Agent 2 ' in this image  , checks the entire website for facts and finally hands it over to Agent 3 
-
-
-
-<img width="1920" height="1080" alt="e3" src="https://github.com/user-attachments/assets/7a6bf22a-9d0f-45e8-8de0-0cf0117de903" />
-
-
-
----
-
-
-
-## ' Agent 3 ' in this image  , presents the final output i.e the number of facts extracted from a website URL and gives the final outcome in a markdown file in a webpage
-
-
-
-<img width="1920" height="1080" alt="e4" src="https://github.com/user-attachments/assets/6c29bd49-7c0b-41d4-a8ad-bdc10fa685b7" />
 
 
 
