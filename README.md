@@ -1,5 +1,3 @@
----
-
 # 🕵️‍♂️ AI Fact-Checking System
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
@@ -86,11 +84,6 @@ streamlit run app.py
 ---
 
 ## 🖼️ Demo
-
-![Dashboard Screenshot](assets/demo_screenshot.png)
-*(Replace with your actual screenshot or GIF of the Streamlit app in action)*
-
-
 
 
 ## This is final output of the project in a Webpage
