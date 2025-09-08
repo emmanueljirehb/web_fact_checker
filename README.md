@@ -177,22 +177,6 @@ flowchart TD
 
 ---
 
-
-
-
-
-<img width="1048" height="1048" alt="Gemini_Generated_Image_g06iqg06iqg06iqg" src="https://github.com/user-attachments/assets/3f0457ef-a728-4676-a875-b5e8858b948f" />
-
-
-
-
-This project is an **autonomous fact-checking application** that uses [CrewAI](https://github.com/joaomdmoura/crewai) agents to:
-- 🔍 Extract factual claims from a website
-- 🧠 Verify those claims using real-time web search (via Serper)
-- 📝 Summarize the findings with verdicts
-
-Built with **Python, Streamlit, and CrewAI**, it provides a simple UI where users can paste a website URL and get a fact-checking report in seconds.
-
 ---
 
 ## 🚀 Features
@@ -324,7 +308,7 @@ Like the project? Let’s connect\!
   * 📝 [Medium](https://medium.com/@emmanueljirehb)
   * 💼 [LinkedIn](https://www.linkedin.com/in/emmanueljirehb)
 
-
+---
 
 
 
